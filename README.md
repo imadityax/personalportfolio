@@ -1,64 +1,159 @@
-# Aditya Yadav — Portfolio
+# Aditya Yadav — Personal Portfolio
 
-Personal portfolio built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**.
+Modern developer portfolio built with **Next.js 15**, **TypeScript**, and **Tailwind CSS** showcasing projects, experience, and technical skills through a clean editorial-style interface.
 
-## Design
+---
 
-- **Aesthetic**: Dark editorial — deep black + amber/gold accents
-- **Fonts**: Syne (display) + DM Sans (body)
-- **Features**: Custom cursor, marquee name, typewriter tagline, scroll-reveal animations, floating photo with spin ring, project cards, skill groups, timeline experience
+## Preview
 
-## Setup
+Live Portfolio: https://imadityax.vercel.app/
+
+---
+
+## Tech Stack
+
+- Next.js 15
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React
+- Vercel Deployment
+
+---
+
+## Features
+
+- Modern dark editorial UI
+- Fully responsive design
+- Animated hero section
+- Custom cursor interactions
+- Scroll reveal animations
+- Real-time typewriter effect
+- Project showcase section
+- Skills & experience timeline
+- Resume integration
+- Optimized performance
+
+---
+
+## Projects Included
+
+- Aaruchudar Management System
+- Musubi Earn
+- QuickScan AI
+- Bingo Real-Time Multiplayer
+- Aaruchudar Website
+- Aaruchudar Mobile App
+- Social Media Management Platform
+- E-Commerce Recommendation System
+
+---
+
+## Getting Started
+
+Clone the repository:
 
 ```bash
-# 1. Install dependencies
+git clone https://github.com/imadityax/personalportfolio.git
+```
+
+Move into the project directory:
+
+```bash
+cd personalportfolio
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
 
-# 2. Add your profile image
-# Copy your photo to: public/profile.jpg
+Run the development server:
 
-# 3. Run dev server
+```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
-
-## Customization Checklist
-
-- [ ] Add `public/profile.jpg` (your photo from WhatsApp image)
-- [ ] Update GitHub repo links in `components/Projects.tsx`
-- [ ] Add actual live URLs where projects are deployed
-- [ ] Update LinkedIn URL if different from `linkedin.com/in/imadityax`
-- [ ] Add your resume PDF to `public/Aditya_Yadav_CV.pdf`
-- [ ] Update phone number if needed in `components/Contact.tsx`
-
-## Deploy
+Open:
 
 ```bash
-# Build for production
-npm run build
+http://localhost:3000
+```
 
-# Deploy to Vercel (easiest)
+---
+
+## Environment Setup
+
+Add the following assets inside the `public` folder:
+
+```txt
+public/
+├── profile.jpg
+└── Aditya_Yadav_CV.pdf
+```
+
+---
+
+## Folder Structure
+
+```txt
+portfolio/
+├── app/
+├── components/
+├── public/
+├── styles/
+├── package.json
+└── README.md
+```
+
+---
+
+## Customization
+
+You can easily update:
+
+- Personal information
+- Project details
+- Resume
+- Social links
+- Skills
+- Experience
+- Theme colors
+- Animations
+
+Main files are located inside:
+
+```txt
+components/
+```
+
+---
+
+## Deployment
+
+Build the project:
+
+```bash
+npm run build
+```
+
+Deploy easily using Vercel:
+
+```bash
 npx vercel
 ```
 
-## Project Structure
+---
 
-```
-portfolio/
-├── app/
-│   ├── layout.tsx      # Root layout with fonts + metadata
-│   ├── page.tsx        # Home page (assembles all sections)
-│   └── globals.css     # Animations, cursor, grain texture
-├── components/
-│   ├── Cursor.tsx      # Custom amber cursor + ring
-│   ├── Navbar.tsx      # Scroll-aware nav + mobile menu
-│   ├── Hero.tsx        # Marquee name, floating photo, typewriter
-│   ├── About.tsx       # Bio + timeline cards
-│   ├── Projects.tsx    # All 6 projects with tags + links
-│   ├── Skills.tsx      # Skill groups + stats
-│   ├── Experience.tsx  # Work history + certifications
-│   └── Contact.tsx     # Email copy, CTAs, footer
-└── public/
-    └── profile.jpg     # ← ADD YOUR PHOTO HERE
-```
+## Contact
+
+- Portfolio: https://imadityax.vercel.app/
+- GitHub: https://github.com/imadityax
+- LinkedIn: https://linkedin.com/in/imadityax
+
+---
+
+## License
+
+This project is open source and available under the MIT License.
