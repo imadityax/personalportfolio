@@ -39,6 +39,11 @@ const certifications = [
     issuer: "Udemy",
     icon: "🎓",
   },
+  {
+    title: "Cloud Computing",
+    issuer: "NPTEL",
+    icon: "☁️",
+  },
 ];
 
 export default function Experience() {
